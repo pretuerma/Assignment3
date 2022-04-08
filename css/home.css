@@ -1,5 +1,5 @@
 body {
-    background-image: url(../Images/bg9.jpg);
+    background-image: url(../Images/bgtwo.jpg);
     color: white;
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@ header nav ul li a {
 
 main {
     border: 1px solid black;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 150px;
     color: black;
@@ -103,5 +103,10 @@ footer {
         height: 40px;
         color: black;
         text-align: center;
+        
+    }
+
+    main ul li {
+        font-size: 15px;
         
     }
