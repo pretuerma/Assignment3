@@ -1,0 +1,241 @@
+body {
+    background-image: url(../Images/bg11.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header {
+height: 100px;  
+border: 1px solid black;
+color: white;
+background-color: black;
+position: relative;
+top: 0;
+width: 100%;
+
+
+
+
+}
+
+
+
+#top {
+    padding-top: 30px;
+    
+}
+
+#skip {
+    position: absolute;
+    margin-top: -150px;
+}
+
+header h3 {
+    color: white;
+    width: 20%;
+    margin: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    float: left;
+}
+
+header nav {
+    float: right;
+
+    margin-top: 30px;
+
+}
+
+header nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: black
+    
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.title h2 {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 750px) {
+    #wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #exp {
+        grid-column: 1/-1;
+        
+    }
+}
+@media screen and (min-width: 1000px) {
+
+#wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+#exp {
+grid-column:auto;
+
+}
+
+}
+
+main div {
+    background-color: rgba(0,0,0,0.6);
+    gap: 20px;
+    color: white;
+    text-align: left;
+    
+    
+    
+}
+
+#wrapper2 {
+    display: grid;
+    
+    
+    color: black;
+    margin-bottom: 100px;
+    text-align: left;
+    gap: 30px;
+    
+   
+}
+
+
+#wrapper2 ul li {
+    display: inline;
+}
+
+#wrapper2 h2 {
+    margin-left: 40px;
+}
+
+.title2 {
+    
+    
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    background-color: rgb(34, 33, 33);
+    color: white;
+    
+}
+
+@media screen and (min-width: 750px) {
+    #wrapper2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+        
+    }
+}
+
+#PersonalInformation {
+    text-align: center;
+    padding-top: 70px;
+    
+    
+    
+    
+    
+}
+
+#top ul li {
+    display: inline;
+    
+    margin: 20px;
+}
+
+#top p {
+   background-color: rgb(34, 33, 33);
+   color: white;
+   padding: 100px;
+}
+
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#top {
+    width: 100%;
+    columns: 1/-1;
+    color: black;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#contents {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+main div ul li {
+    display: inline-block;
+    
+    
+}
+
+main div h2 {
+    margin-left: 10px;
+}
+
+#school {
+    border: 2px solid black;
+
+}
+
+main div h4 {
+    margin-bottom: 0;
+}
+
+footer {
+    
+    padding: 10px 10px 10px 10px;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    
+}

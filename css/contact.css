@@ -1,0 +1,161 @@
+body {
+    background-image: url(../Images/bg17.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+   
+}
+
+
+header {
+    height: 100px;  
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    
+    top: 0;
+    width: 100%;
+    
+    
+}
+
+
+
+header h3 {
+    color: white;
+    width: 20%;
+    margin: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    float: left;
+}
+
+header nav {
+    float: right;
+   
+    margin-top: 30px;
+
+}
+
+header nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 80%;
+    
+}
+    
+   
+   
+    input {
+        height: 40px;
+        width: 250px;
+        margin-left: 20px;
+        
+        
+        
+        
+    }
+
+    fieldset {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+        
+    }
+
+    
+
+    #footer {
+        bottom: 0;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        font-size: 12px;
+        height: 40px;
+        color: rgb(255, 255, 255);
+        
+        
+
+    }
+
+    main div {
+        margin: 0 auto;
+    }
+
+    
+
+    
+
+    label {
+        margin-left: 20px;
+        font-size: large;
+        width: 30px;
+        color: white;
+
+    
+        
+        
+    }
+    fieldset h1 {
+        color: black;
+    }
+
+    #messageInput {
+        height: 100px;
+        
+    }
+
+    #name{
+        padding-top: 20px;
+    }
+
+
+    fieldset {
+        border-color: black;
+    }
+
+    input[type="text"]:focus {
+        outline: 5px solid rgb(22, 48, 196);
+    }
+
+    input[type="email"]:focus {
+        outline: 5px solid rgb(22, 48, 196);
+    }
+    input[type="tel"]:focus {
+        outline: 5px solid rgb(22, 48, 196);
+    }
+
+    button:hover,
+    button:focus {
+        outline: 5px solid rgb(22, 48, 196);
+        background: rgb(22, 48, 196);
+        color: white;
+        text-decoration: underline;
+        
+    }
+
+    button {
+        height: 30px;
+        width: 250px;
+        font-size: large;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        cursor: pointer;
+        
+    }
