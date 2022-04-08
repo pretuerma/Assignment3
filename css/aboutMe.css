@@ -1,8 +1,10 @@
 body {
-    background-image: url(../Images/bgfour.jpg);
+    background-image: url(https://images.unsplash.com/photo-1519806870789-d65fc19601fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdoaXRlJTIwd2FsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60);
     color: white;
     background-position: center;
-    background-size: cover;
+    
+    
+    
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -96,7 +98,7 @@ main {
         grid-template-columns: 1fr 1fr;
     }
 
-    #exp {
+    #work {
         grid-column: 1/-1;
         
     }
